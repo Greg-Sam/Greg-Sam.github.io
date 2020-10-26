@@ -1,11 +1,13 @@
  #headerfont {
    color: ivory;
    font-size: x-large;
+   font-family: Arial, Helvetica, sans-serif;
    padding-left: 20px;
  }
 
  .navfont {
    color: ivory;
+   font-size: large;
    padding-top: 20px;
  }
 
