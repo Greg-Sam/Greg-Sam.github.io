@@ -8,3 +8,38 @@
    color: ivory;
    padding-top: 20px;
  }
+
+ .maincard {
+   margin: 35px;
+   width: 650px;
+ }
+
+ .titlefont {
+   color: ivory;
+   font-size: 32px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100 %;
+   text-align: center;
+ }
+
+ .bisergscard {
+   background-color: #40464f;
+   color: ivory;
+ }
+
+ .bisergspic {
+   padding-top: 35px;
+   padding-bottom: 37px;
+ }
+
+ .wordcupcard {
+   background-color: #882222;
+   color: ivory;
+ }
+
+ .wordcuppic {
+   padding-top: 35px;
+   padding-bottom: 37px;
+ }
