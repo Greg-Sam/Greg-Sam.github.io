@@ -13,7 +13,8 @@
 
  .containerstyle {
    border-radius: 15px;
-   margin-top: 25px;
+   margin-top: 100px;
+   width: 90%;
  }
 
  .titlefont {
@@ -28,14 +29,22 @@
  }
 
  .bodyfont {
-   color: ivory;
+   color: black;
    margin-left: 15px;
    margin-right: 15px;
    padding-left: 10px;
  }
 
+ .formfont {
+   color: ivory;
+   margin-right: 15px;
+   font-weight: bold ;
+   
+ }
+
  .borderbox {
    border: ivory;
+   background-color: ivory;
    border-width: 2px;
    border-style: solid;
  }

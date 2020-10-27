@@ -13,7 +13,8 @@
 
  .containerstyle {
    border-radius: 15px;
-   margin-top: 25px;
+   margin-top: 100px;
+   width: 90%;
  }
 
  .smallcard {
@@ -54,6 +55,6 @@
  }
 
  .wordcuppic {
-   padding-top: 70px;
-   padding-bottom: 70px;
+   padding-top: 50px;
+   padding-bottom: 50px;
  }
