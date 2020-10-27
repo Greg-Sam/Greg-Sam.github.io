@@ -31,6 +31,7 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 25px;
    max-width: 80%;
  }
 
@@ -46,7 +47,9 @@
  }
 
  .bodyfont{
-   color: ivory
+   color: ivory;
+   margin-left: 15px;
+   margin-right: 15px;
  }
 
  /* @media only screen and (max-width: 655px) {
