@@ -11,6 +11,11 @@
    padding-top: 20px;
  }
 
+ .containerstyle {
+   border-radius: 15px;
+   margin-top: 25px;
+ }
+
  .cardstyle {
    margin-top: 35px;
    margin-left: 35px;
@@ -22,11 +27,11 @@
  }
 
  .picturestyle {
-   width: 300px;
+   
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 100 %;
+   max-width: 80%;
  }
 
  .titlefont {
@@ -35,7 +40,13 @@
    font-family: Arial, Helvetica, sans-serif;
    margin-left: auto;
    margin-right: auto;
+   margin-top: 20px;
    width: 100 %;
+   text-align: center;
+ }
+
+ .bodyfont{
+   color: ivory
  }
 
  /* @media only screen and (max-width: 655px) {
