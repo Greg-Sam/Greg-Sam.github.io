@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -150,100 +151,161 @@
 
 
 </head>
-  
-  <body>
-    <!-- navigation bar -->
-    <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">Greg Samuelson</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- hamburger nav -->
-        <div class="collapse navbar-collapse" id="navbar1">
-          <ul class="navbar-nav nav nav-fill w-100">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-          </ul>
+
+<body>
+  <!-- navigation bar -->
+  <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">Greg Samuelson</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- hamburger nav -->
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav nav nav-fill w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- portfolio container -->
+  <main class="container bg-secondary containerstyle">
+    <div class="row">
+      <h1 class="titlefont mx-auto">Greg Samuelson's Portfolio</h1>
+    </div>
+    <!-- first portfolio item -->
+    <div class="row" style="margin-right: auto; margin-left: auto;">
+      <div class="col">
+        <div class="card wordcupcard smallcard" style="width: 18rem;">
+          <img src="./resources/COVID INFORMA.PNG" class="card-img-top" alt="screen shot">
+          <div class="card-body">
+            <h5 class="card-title">COVID Map</h5>
+            <p class="card-text">Interactive map providing data visualization of realtime COVID 19 statistics. Made use
+              of mapbox, apis, html, css and materialize.
+            </p>
+            <a style="border-color: ivory; background-color: ivory; color:#882222;"
+              href="https://nicouva.github.io/Project1-COVID19-Map/#" class="btn btn-primary">Visit Site</a>
+            <a style="margin-top: 2px; border-color: ivory; background-color: ivory; color:#882222;"
+              href="https://github.com/nicouva/Project1-COVID19-Map" class="btn btn-primary">View GitHub Repository</a>
+          </div>
         </div>
       </div>
-    </nav>
-
-    <!-- portfolio container -->
-    <main class="container bg-secondary containerstyle">
-        <div class="row" >
-          <h1 class="titlefont mx-auto">Greg Samuelson's Portfolio</h1>
+      <!-- second portfolio item -->
+      <div class="col">
+        <div class="card smallcard bisergscard" style="width: 18rem;">
+          <img src="./resources/weatherDashboard.PNG" class="card-img-top " alt="app screen shot">
+          <div class="card-body">
+            <h5 class="card-title">Weather Dashboard</h5>
+            <p class="card-text">Searchable weather dashboard that provides current conditions and a five day forecast
+              for cities around the world.
+            </p>
+            <a href="https://greg-sam.github.io/Weather-Dashboard/" class="btn btn-primary"
+              style="background-color: ivory; color: #40464f">Visit Site</a>
+            <a style="margin-top: 2px" href="https://github.com/Greg-Sam/Weather-Dashboard" class="btn btn-primary"
+              style="background-color: ivory; color: #40464f">View GitHub Repository</a>
+          </div>
         </div>
-          <!-- first portfolio item -->
-          <div class="row" style="margin-right: auto; margin-left: auto;">
-            <div class="col">
-              <div class="card smallcard" style="width: 18rem;">
-                <img src="./resources/cropped-45200840995_393f230abb_o-4.jpg" class="card-img-top" alt="Christian Sorum and Anders Mol">
-                <div class="card-body">
-                  <h5 class="card-title">The Beach Volley Blog</h5>
-                  <p class="card-text">A blog about beach volleyball and the Olympic qualfiication process I have maintained on Wordpress for about two years.
-                  </p>
-                  <a href="http://beachvolleyblog.net/" class="btn btn-primary">Visit Site</a>
-                </div>
-              </div>
-            </div>
-            <!-- second portfolio item -->
-            <div class="col">
-              <div class="card smallcard bisergscard" style="width: 18rem;">
-                <img src="./resources/images.jpg" class="card-img-top " alt="BISERGS 2018 Banner">
-                <div class="card-body">
-                  <h5 class="card-title">BISERGS 2018</h5>
-                  <p class="card-text">2018 version of BISERGS game I created for my extended family.  This was the sixth edition of a game I've run for the past 20 years.
-                  </p>
-                  <a href="http://bisergs2018.blogspot.com/" class="btn btn-primary" style="background-color: ivory; color: #40464f">Visit Site</a>
-                </div>
-              </div>
-            </div>
-            <!-- Third portfolio item -->
+      </div>
+      <!-- Third portfolio item -->
+    </div>
+    <!-- first portfolio item -->
+    <div class="row" style="margin-right: auto; margin-left: auto;">
+      <div class="col">
+        <div class="card smallcard" style="width: 18rem;">
+          <img src="./resources/password.PNG" class="card-img-top"
+            alt="app screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Password Generator</h5>
+            <p class="card-text">This app receives user input and generates a strong password to meet their specifications
+            </p>
+            <a href="https://greg-sam.github.io/pw_gen/" class="btn btn-primary">Visit Site</a>
+            <a style="margin-top: 2px" href="https://github.com/Greg-Sam/pw_gen" class="btn btn-primary"
+              style="background-color: ivory; color: #40464f">View GitHub Repository</a>
           </div>
-          <div class="row" style="margin-right: auto; margin-left: auto;">
-            <div class="col">
-              <div class="card wordcupcard smallcard" style="width: 18rem; ">
-                <img src="./resources/wordcup.PNG" class="card-img-top wordcuppic" alt="Word Cup Banner">
-                <div class="card-body">
-                  <h5 class="card-title">ZU Word Cup</h5>
-                  <p class="card-text">Super engaging breaktime competition I created to motivate Zayed University students to learn new academic vocabulary.
-                  </p>
-                  <a href="https://2019abpwordcup.blogspot.com/" class="btn btn-primary" style ="background-color: ivory; color:#882222;">Visit site</a>
-                </div>
-              </div>
-            </div>
-            <!-- fourth portfolio item -->
-            <div class="col">
-              <div class="card smallcard" style="width: 18rem; ">
-                <img src="https://image.shutterstock.com/image-photo/software-source-code-programming-on-600w-634574354.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">My Portfolio</h5>
-                  <p class="card-text">This is the future home of my portfolio.  Click the button if you want, but you are already here.
-                  </p>
-                  <a href="./index.html" class="btn btn-primary">Visit Site</a>
-                </div>
-              </div>
-            </div>
-            
-            </div>
+        </div>
+      </div>
+      <!-- second portfolio item -->
+      <div class="col">
+        <div class="card smallcard bisergscard" style="width: 18rem;">
+          <img src="./resources/images.jpg" class="card-img-top " alt="BISERGS 2018 Banner">
+          <div class="card-body">
+            <h5 class="card-title">BISERGS 2018</h5>
+            <p class="card-text">2018 version of BISERGS game I created for my extended family. This was the sixth
+              edition of a game I've run for the past 20 years.
+            </p>
+            <a href="http://bisergs2018.blogspot.com/" class="btn btn-primary"
+              style="background-color: ivory; color: #40464f">Visit Site</a>
           </div>
+        </div>
+      </div>
+      <!-- Third portfolio item -->
+    </div>
+    <div class="row" style="margin-right: auto; margin-left: auto;">
+      <div class="col">
+        <div class="card wordcupcard smallcard" style="width: 18rem; ">
+          <img src="./resources/wordcup.PNG" class="card-img-top wordcuppic" alt="Word Cup Banner">
+          <div class="card-body">
+            <h5 class="card-title">ZU Word Cup</h5>
+            <p class="card-text">Super engaging breaktime competition I created to motivate Zayed University students to
+              learn new academic vocabulary.
+            </p>
+            <a href="https://2019abpwordcup.blogspot.com/" class="btn btn-primary"
+              style="border-color: ivory; background-color: ivory; color:#882222;">Visit site</a>
+          </div>
+        </div>
+      </div>
+      <!-- fourth portfolio item -->
+      <div class="col">
+        <div class="card smallcard" style="width: 18rem; ">
+          <img src="https://image.shutterstock.com/image-photo/software-source-code-programming-on-600w-634574354.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">My Portfolio</h5>
+            <p class="card-text">This is the future home of my portfolio. Click the button if you want, but you are
+              already here.
+            </p>
+            <a href="./index.html" class="btn btn-primary">Visit Site</a>
+          </div>
+        </div>
+      </div>
 
-      
-    </main>
-    
-    
-    
+    </div>
+    <div class="row" style="margin-right: auto; margin-left: auto;">
+      <div class="col">
+        <div class="card smallcard" style="width: 18rem;">
+          <img src="./resources/cropped-45200840995_393f230abb_o-4.jpg" class="card-img-top"
+            alt="Christian Sorum and Anders Mol">
+          <div class="card-body">
+            <h5 class="card-title">The Beach Volley Blog</h5>
+            <p class="card-text">A blog about beach volleyball and the Olympic qualfiication process I have maintained
+              on Wordpress for about two years.
+            </p>
+            <a href="http://beachvolleyblog.net/" class="btn btn-primary">Visit Site</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

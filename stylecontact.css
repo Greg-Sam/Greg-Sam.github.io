@@ -43,3 +43,8 @@
    border-width: 2px;
    border-style: solid;
  }
+
+ .picSize {
+   height: 80px;
+   color: ivory
+ }
