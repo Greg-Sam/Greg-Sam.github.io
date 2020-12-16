@@ -1,56 +1,56 @@
+.navfont {
+  color: ivory;
+  font-size: large;
+  padding-top: 20px;
+}
 
- .navfont {
-   color: ivory;
-   font-size: large;
-   padding-top: 20px;
- }
+.containerstyle {
+  border-radius: 15px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+  width: 90%;
+}
 
- .containerstyle {
-   border-radius: 15px;
-   margin-top: 100px;
-   padding-bottom: 20px;
-   width: 90%;
- }
+.smallcard {
+  height: 400px;
+  border: 1px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: auto;
+  margin-top: 15px;
+}
 
- .smallcard {
-   height: 400px;
-   border: 1px;
-   margin-top: 15px;
-   border-radius: 10px;
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   -ms-border-radius: 10px;
-   -o-border-radius: 10px;
- }
+.titlefont {
+  color: ivory;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100 %;
+  text-align: center;
+}
 
- .titlefont {
-   color: ivory;
-   font-size: 32px;
-   font-family: Arial, Helvetica, sans-serif;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   width: 100 %;
-   text-align: center;
- }
+.bisergscard {
+  background-color: #40464f;
+  color: ivory;
+}
 
- .bisergscard {
-   background-color: #40464f;
-   color: ivory;
- }
+.bisergspic {
+  padding-top: 35px;
+  padding-bottom: 37px;
+}
 
- .bisergspic {
-   padding-top: 35px;
-   padding-bottom: 37px;
- }
+.wordcupcard {
+  background-color: #882222;
+  color: ivory;
+}
 
- .wordcupcard {
-   background-color: #882222;
-   color: ivory;
- }
-
- .wordcuppic {
-   padding-top: 50px;
-   padding-bottom: 50px;
- }
+.wordcuppic {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
