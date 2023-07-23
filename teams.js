@@ -48,7 +48,7 @@ async function getTeams() {
          <td>${rank}</td>  
          <td><img src="${flag}" alt="${name}"> ${name}</td>
          <td>${points}</td>
-         <td>${ matches}</td>
+         <td>${matches}</td>
          
           </tr>
           </tr>
@@ -88,8 +88,13 @@ async function populateModal(playerTeams) {
 
 
 function openModal(team, owners, points) {
-console.log(team, owners, points)
+  console.log(team, owners, points)
 
+  let ownerElement = `<h6 >${owners[0]}, ${owners[1]}, ${owners[2]} and ${owners[3]}</h6>`
+  if (owners.length === 3) { ownerElement = `<h6 >${owners[0]}, ${owners[1]} and ${owners[2]}</h6>` }
+  else if (owners.length === 2) { ownerElement = `<h6 >${owners[0]} and ${owners[1]}</h6>` }
+  else if (owners.length === 1) { ownerElement = `<h6 >${owners[0]}</h6>` }
+  else if (owners.length === 0) { ownerElement = `<h6 >This team was not picked</h6>` }
 
   document.getElementById("backdrop").style.display = "block"
   document.getElementById("teamsModal").style.display = "block"
@@ -112,7 +117,7 @@ console.log(team, owners, points)
           <h6 style="margin-left:-1rem">Owners:</h6>
           </div>
           <div class="col-10">
-          <h6 >${owners[0]}, ${owners[1]}, ${owners[2]}, ${owners[3]} and ${owners[4]}</h6>
+          ${ownerElement}
           </div>
           
           
@@ -126,8 +131,8 @@ console.log(team, owners, points)
 </div>
    `
 
-  // document.getElementById('playerModal').append(modal)
-  populateModal(playerTeams)
+  //   // document.getElementById('playerModal').append(modal)
+  //   populateModal(playerTeams)
 }
 
 function closeModal() {
