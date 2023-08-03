@@ -43,7 +43,7 @@ async function getRankings() {
          <td>${rank}</td>  
          <td>${name}</td>
          <td>${score}</td> 
-         <td>${played}</td>
+         <td>${remaining}</td>
           </tr> 
           </tr>
           `
