@@ -41,7 +41,11 @@ async function getTeams() {
 
         let row = document.createElement('tr')
         //change row color here
-        row.className = 'table-primary'
+        if(status === "active") {
+        row.className = 'table-primary'}
+        else {
+          row.className = 'table-danger'
+        }
         row.id = team._id
 
         row.innerHTML = `<tr class="table-dark"> 
@@ -175,52 +179,5 @@ document.addEventListener('click', event => {
 
 })
 
-
-
-// async function getCountries() {
-//   const selectDrop = document.getElementById('countries')
-//   await axios.get('https://us-west-2.aws.data.mongodb-api.com/app/entryranks-gejyz/endpoint/menCountries')
-//     .then(async (res) => {
-//       let countryList = '<option>Select Country</option>'
-//       let countries = res.data
-//       for (let i = 0; i < countries.length; i++) {
-//         const country = countries[i];
-//         countryList += `<option>${country.country}</option>`
-//       }
-//       selectDrop.innerHTML = countryList
-//     })
-// }
-// getCountries()
-
-// document.getElementById("countries").onchange = changeListener;
-
-// function changeListener() {
-//   var value = this.value
-
-//   country = value
-//   if (country === 'Select Country') { country = '' }
-//   path = `https://us-west-2.aws.data.mongodb-api.com/app/entryranks-gejyz/endpoint/menEntryRanking?country=${country}&page=1`
-//   document.getElementById('date').innerHTML = ''
-//   document.getElementById('teamRow').innerHTML = ''
-//   getMenRankings(path)
-
-
-// }
-
-// function next() {
-//   page = page + 1
-//   path = `https://us-west-2.aws.data.mongodb-api.com/app/entryranks-gejyz/endpoint/menEntryRanking?country=${country}&page=${page}`
-//   document.getElementById('date').innerHTML = ''
-//   document.getElementById('teamRow').innerHTML = ''
-//   getMenRankings(path)
-// }
-
-// function prev() {
-//   if (page !== 1) { page = page - 1 }
-//   path = `https://us-west-2.aws.data.mongodb-api.com/app/entryranks-gejyz/endpoint/menEntryRanking?country=${country}&page=${page}`
-//   document.getElementById('date').innerHTML = ''
-//   document.getElementById('teamRow').innerHTML = ''
-//   getMenRankings(path)
-// }
 
 
